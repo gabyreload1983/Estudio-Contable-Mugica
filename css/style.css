@@ -1,5 +1,9 @@
 @import "./normalize.css";
 
-body {
-  background: gold;
+:root {
+  --color--primary: rgb(50, 50, 158);
+  --color--secondary: rgb(68, 175, 211);
+  --color--social: rgb(62, 136, 62);
+  --color--headings: rgb(20, 20, 150);
+  --color--body: gray;
 }
