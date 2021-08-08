@@ -80,3 +80,14 @@ a {
     font-size: 1.5rem;
   }
 }
+
+/* List */
+.list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list--inline .list__item {
+  display: inline-block;
+  margin-right: 2rem;
+}
