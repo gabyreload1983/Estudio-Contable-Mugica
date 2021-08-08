@@ -58,3 +58,25 @@ p {
     font-size: 2.4rem;
   }
 }
+
+/* Links */
+a {
+  text-decoration: none;
+}
+
+.link {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--color--primary);
+  transition: color 0.3s;
+}
+
+.link:hover {
+  color: dodgerblue;
+}
+
+@media screen and (min-width: 1024px) {
+  .link {
+    font-size: 1.5rem;
+  }
+}
