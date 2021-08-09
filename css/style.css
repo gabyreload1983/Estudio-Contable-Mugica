@@ -147,3 +147,25 @@ a {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+/* Card */
+.card {
+  border-radius: 7px;
+  box-shadow: 0 0 20px 10px #bebebe;
+  overflow: hidden;
+}
+
+.card__header,
+.card__body {
+  padding: 2rem 3rem;
+}
+
+.card--primary .card__header {
+  background: var(--color--primary);
+  color: #fff;
+}
+
+.card--secondary .card__header {
+  background: var(--color--secondary);
+  color: #fff;
+}
