@@ -158,6 +158,7 @@ a {
 .card__header,
 .card__body {
   padding: 2rem 3rem;
+  text-align: center;
 }
 
 .card--primary .card__header {
@@ -168,4 +169,13 @@ a {
 .card--secondary .card__header {
   background: var(--color--secondary);
   color: #fff;
+}
+
+.card__image {
+  display: flex;
+  justify-content: center;
+}
+
+.image--logo {
+  width: 100%;
 }
