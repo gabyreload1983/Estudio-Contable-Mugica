@@ -14,22 +14,22 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <section class="block container">
-      <header class="block__header">
-        <h2 class="block__heading">Heading</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, eaque?
-        </p>
-      </header>
-    </section>
-    <section class="block block--dark block--skeed-right">
-      <div class="container">
-        <h2 class="block__heading">Heading</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, eaque?
-        </p>
-      </div>
-    </section>
+    <nav class="nav collapsible">
+      <a class="nav__brand" href="/">
+        <svg class="icon icon--primary icon--logo">
+          <use xlink:href="./images/sprite.svg#logom"></use>
+        </svg>
+      </a>
+      <svg class="icon icon--white nav__toggler">
+        <use xlink:href="./images/sprite.svg#menu"></use>
+      </svg>
+      <ul class="list nav__list collapsible__content">
+        <li class="nav__item"><a href="#">Contacto</a></li>
+        <li class="nav__item"><a href="#">Servicios</a></li>
+        <li class="nav__item"><a href="#">Clientes</a></li>
+        <li class="nav__item"><a href="#">Iniciar Sesion</a></li>
+      </ul>
+    </nav>
     <script src="./js/main.js"></script>
   </body>
 </html>
