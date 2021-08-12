@@ -481,6 +481,10 @@ a {
 }
 
 /* Plans Block */
+.block-plans {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
 .block-plans .grid {
   gap: 4rem;
 }
@@ -493,6 +497,7 @@ a {
 /* Domain Block */
 .block-domain {
   background: url(/images/Cornered-Stairs.svg);
+  margin-top: 2rem;
 }
 
 .domain__heading {

@@ -14,23 +14,25 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <!-- Navbar -->
-    <nav class="nav collapsible">
-      <a class="nav__brand" href="/">
-        <svg class="icon icon--primary icon--logo">
-          <use xlink:href="./images/sprite.svg#logom"></use>
+    <!-- Header -->
+    <header>
+      <nav class="nav collapsible">
+        <a class="nav__brand" href="/">
+          <svg class="icon icon--primary icon--logo">
+            <use xlink:href="./images/sprite.svg#logom"></use>
+          </svg>
+        </a>
+        <svg class="icon icon--white nav__toggler">
+          <use xlink:href="./images/sprite.svg#menu"></use>
         </svg>
-      </a>
-      <svg class="icon icon--white nav__toggler">
-        <use xlink:href="./images/sprite.svg#menu"></use>
-      </svg>
-      <ul class="list nav__list collapsible__content">
-        <li class="nav__item"><a href="#">Contacto</a></li>
-        <li class="nav__item"><a href="#">Servicios</a></li>
-        <li class="nav__item"><a href="#">Clientes</a></li>
-        <li class="nav__item"><a href="#">Iniciar Sesion</a></li>
-      </ul>
-    </nav>
+        <ul class="list nav__list collapsible__content">
+          <li class="nav__item"><a href="#">Contacto</a></li>
+          <li class="nav__item"><a href="#">Servicios</a></li>
+          <li class="nav__item"><a href="#">Clientes</a></li>
+          <li class="nav__item"><a href="#">Iniciar Sesion</a></li>
+        </ul>
+      </nav>
+    </header>
 
     <!-- Hero -->
     <section class="block block--dark block--skeed-left hero">
@@ -52,6 +54,71 @@
             />
             <img class="hero__image" src="images/banner.png" alt="" />
           </picture>
+      </div>
+    </section>
+
+    <!-- Block Domain -->
+    <section class="block block-domain">
+   <header class="block__header">
+      <h2 class="domain__heading">Deja tus finanzas en nuestras manos</h2>
+      <p class="domain__description">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, quam.
+      </p>
+    </header>
+    </section>
+
+    <!-- Plans -->
+    <section class="block container block-plans">
+      <div class="grid grid--1x3">
+        <!-- Plan -->
+        <div class="plan">
+          <!-- Card -->
+          <div class="card card--primary">
+            <header class="card__header">
+              <h3 class="plan__name">Servicios</h3>
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">Item 1</li>
+                <li class="list__item">Item 2</li>
+                <li class="list__item">Item 3</li>
+                <li class="list__item">Item 4</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="plan">
+          <!-- Card -->
+          <div class="card card--primary">
+            <header class="card__header">
+              <h3 class="plan__name">Clientes</h3>
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">Item 1</li>
+                <li class="list__item">Item 2</li>
+                <li class="list__item">Item 3</li>
+                <li class="list__item">Item 4</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="plan">
+          <!-- Card -->
+          <div class="card card--primary">
+            <header class="card__header">
+              <h3 class="plan__name">Another</h3>
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">Item 1</li>
+                <li class="list__item">Item 2</li>
+                <li class="list__item">Item 3</li>
+                <li class="list__item">Item 4</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -103,7 +170,7 @@
             </ul>
           </div>
         </section>
-
+    
         <section class="footer__brand">
           <svg class="icon icon--primary footer__icon">
             <use xlink:href="./images/sprite.svg#logom"></use>
@@ -112,6 +179,7 @@
         </section>
       </div>
     </footer>
+
     <script src="./js/main.js"></script>
   </body>
 </html>
