@@ -366,7 +366,6 @@ a {
 
 /* Hero */
 .hero {
-  height: 70vh;
   background: rgb(0, 0, 0);
   background: linear-gradient(
     180deg,
@@ -394,6 +393,50 @@ a {
     text-align: left;
     align-self: center;
   }
+}
+
+/* Plans */
+.plan {
+  transition: transform 0.2s ease-out;
+}
+
+.plan__name {
+  color: #fff;
+  margin: 0;
+  font-weight: 500;
+  font-size: 2.4rem;
+}
+
+.plan:hover {
+  transform: scale(1.05);
+}
+
+/* Domain Block */
+.block-domain {
+  background: url(/images/Cornered-Stairs.svg);
+  margin-top: 2rem;
+}
+
+.domain__heading {
+  color: #fff;
+}
+
+.domain__description {
+  color: #eee;
+}
+
+/* Plans Block */
+.block-plans {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.block-plans .grid {
+  gap: 4rem;
+}
+
+.block-plans .card {
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 /* Footer */
@@ -468,47 +511,4 @@ a {
   .footer__heading {
     font-size: 1.6rem;
   }
-}
-
-/* Plans */
-.plan {
-  transition: transform 0.2s ease-out;
-}
-
-.plan__name {
-  color: #fff;
-  margin: 0;
-  font-weight: 500;
-  font-size: 2.4rem;
-}
-
-.plan:hover {
-  transform: scale(1.05);
-}
-
-/* Plans Block */
-.block-plans {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-.block-plans .grid {
-  gap: 4rem;
-}
-
-.block-plans .card {
-  max-width: 500px;
-  margin: 0 auto;
-}
-
-/* Domain Block */
-.block-domain {
-  background: url(/images/Cornered-Stairs.svg);
-}
-
-.domain__heading {
-  color: #fff;
-}
-
-.domain__description {
-  color: #eee;
 }
