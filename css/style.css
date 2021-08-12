@@ -366,7 +366,7 @@ a {
 
 /* Hero */
 .hero {
-  clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 0% 100%);
 }
 
 .hero__taglin {
@@ -377,6 +377,7 @@ a {
 
 .hero__image {
   width: 100%;
+  margin-bottom: 1rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -487,4 +488,17 @@ a {
 .block-plans .card {
   max-width: 500px;
   margin: 0 auto;
+}
+
+/* Domain Block */
+.block-domain {
+  background: url(/images/Cornered-Stairs.svg);
+}
+
+.domain__heading {
+  color: #fff;
+}
+
+.domain__description {
+  color: #eee;
 }
