@@ -366,7 +366,13 @@ a {
 
 /* Hero */
 .hero {
-  clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 0% 100%);
+  height: 70vh;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(9, 29, 70, 1) 90%
+  );
 }
 
 .hero__taglin {
@@ -382,7 +388,7 @@ a {
 
 @media screen and (min-width: 768px) {
   .hero {
-    padding-top: 0;
+    padding-top: 4rem;
   }
   .hero__content {
     text-align: left;
@@ -497,7 +503,6 @@ a {
 /* Domain Block */
 .block-domain {
   background: url(/images/Cornered-Stairs.svg);
-  margin-top: 2rem;
 }
 
 .domain__heading {
