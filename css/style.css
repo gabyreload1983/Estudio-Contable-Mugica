@@ -512,3 +512,25 @@ a {
     font-size: 1.6rem;
   }
 }
+
+/* main */
+.main {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(9, 29, 70, 1) 90%
+  );
+  padding-bottom: 3rem;
+}
+
+.main__heading {
+  text-align: center;
+  margin: 0;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.main__image {
+  width: 100%;
+}
