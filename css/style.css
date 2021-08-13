@@ -414,7 +414,6 @@ a {
 /* Domain Block */
 .block-domain {
   background: url(/images/Cornered-Stairs.svg);
-  margin-top: 2rem;
 }
 
 .domain__heading {
@@ -525,6 +524,7 @@ a {
 }
 
 .main__heading {
+  font-size: 5rem;
   text-align: center;
   margin: 0;
   color: #fff;
