@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Estudio Contable Mugica</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,8 +15,6 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
-   <!-- Header -->
-   <header>
     <nav class="nav collapsible">
       <a class="nav__brand" href="/">
         <svg class="icon icon--primary icon--logo">
@@ -29,162 +27,107 @@
       <ul class="list nav__list collapsible__content">
         <li class="nav__item"><a href="#">Contacto</a></li>
         <li class="nav__item"><a href="#">Servicios</a></li>
-        <li class="nav__item"><a href="#">Clientes</a></li>
         <li class="nav__item"><a href="#">Iniciar Sesion</a></li>
       </ul>
     </nav>
-  </header>
 
-  <!-- Hero -->
-  <section class="block block--dark hero">
-    <div class="container grid grid--1x2">
-      <header class="block__header hero__content">
-        <h1 data-aos="zoom-in" class="block__heading">Estudio Contable Mugica</h1>
-        <p class="hero__tagline">La solucion a tus finanzas</p>
-        <a href="#" class="btn btn--social btn--streched">Whatsapp</a>
-      </header>
-      <picture>
+    <!-- Main -->
+    <div class="main">
+      <h1 class="main__heading">Estudio Contable Mugica</h1>
+      <div class="block container">
         <picture>
           <source
             type="image/webp"
-            srcset="images/banner.webp 1x, images/banner@2x.webp 2x, images/banner@3x.webp 3x"
+            srcset="
+              images/banner.webp    1x,
+              images/banner@2x.webp 2x,
+              images/banner@3x.webp 3x
+            "
           />
           <source
             type="image/png"
-            srcset="images/banner.png 1x, images/banner@2x.png 2x, images/banner@3x.png 3x"
+            srcset="
+              images/banner.png    1x,
+              images/banner@2x.png 2x,
+              images/banner@3x.png 3x
+            "
           />
-          <img data-aos="fade-left" class="hero__image" src="images/banner.png" alt="" />
+          <img
+            data-aos="zoom-in"
+            class="main__image"
+            src="/images/banner.png"
+            alt=""
+          />
         </picture>
-    </div>
-  </section>
-
-  <!-- Block Domain -->
-  <section data-aos="fade-right" class="block block-domain">
- <header class="block__header">
-    <h2 class="domain__heading">Deja tus finanzas en nuestras manos</h2>
-    <p class="domain__description">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, quam.
-    </p>
-  </header>
-  </section>
-
-  <!-- Plans -->
-  <section class="block container block-plans">
-    <div class="grid grid--1x3">
-      <!-- Plan -->
-      <div class="plan">
-        <!-- Card -->
-        <div data-aos="fade-up" class="card card--primary">
-          <header class="card__header">
-            <h3 class="plan__name">Servicios</h3>
-          </header>
-          <div class="card__body">
-            <ul class="list list--tick">
-              <li class="list__item">Item 1</li>
-              <li class="list__item">Item 2</li>
-              <li class="list__item">Item 3</li>
-              <li class="list__item">Item 4</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div  class="plan">
-        <!-- Card -->
-        <div data-aos="fade-up" class="card card--primary">
-          <header class="card__header">
-            <h3 class="plan__name">Clientes</h3>
-          </header>
-          <div class="card__body">
-            <ul class="list list--tick">
-              <li class="list__item">Item 1</li>
-              <li class="list__item">Item 2</li>
-              <li class="list__item">Item 3</li>
-              <li class="list__item">Item 4</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div  class="plan">
-        <!-- Card -->
-        <div data-aos="fade-up" class="card card--primary">
-          <header class="card__header">
-            <h3 class="plan__name">Another</h3>
-          </header>
-          <div class="card__body">
-            <ul class="list list--tick">
-              <li class="list__item">Item 1</li>
-              <li class="list__item">Item 2</li>
-              <li class="list__item">Item 3</li>
-              <li class="list__item">Item 4</li>
-            </ul>
-          </div>
-        </div>
       </div>
     </div>
-  </section>
 
-  <!-- Footer -->
-  <footer class="block block--dark footer">
-    <div class="container grid footer__sections">
-      <section class="collapsible collapsible--expanded footer__section">
-        <header class="collapsible__header">
-          <h2 class="collapsible__heading footer__heading">Contacto</h2>
-          <svg class="icon icon--white collapsible__chevron">
-            <use xlink:href="./images/sprite.svg#chevron"></use>
-          </svg>
-        </header>
-        <div class="collapsible__content">
-          <ul class="list">
-            <li><a href="#">Ubicacion</a></li>
-            <li><a href="#">Whatsapp</a></li>
-            <li><a href="#">Mail</a></li>
-          </ul>
-        </div>
-      </section>
-      <section class="collapsible footer__section">
-        <header class="collapsible__header">
-          <h2 class="collapsible__heading footer__heading">Another</h2>
-          <svg class="icon icon--white collapsible__chevron">
-            <use xlink:href="./images/sprite.svg#chevron"></use>
-          </svg>
-        </header>
-        <div class="collapsible__content">
-          <ul class="list">
-            <li><a href="#">item1</a></li>
-            <li><a href="#">item2</a></li>
-            <li><a href="#">item3</a></li>
-          </ul>
-        </div>
-      </section>
-      <section class="collapsible footer__section">
-        <header class="collapsible__header">
-          <h2 class="collapsible__heading footer__heading">Another</h2>
-          <svg class="icon icon--white collapsible__chevron">
-            <use xlink:href="./images/sprite.svg#chevron"></use>
-          </svg>
-        </header>
-        <div class="collapsible__content">
-          <ul class="list">
-            <li><a href="#">item1</a></li>
-            <li><a href="#">item2</a></li>
-            <li><a href="#">item3</a></li>
-          </ul>
-        </div>
-      </section>
-  
-      <section class="footer__brand">
-        <svg class="icon icon--primary footer__icon">
-          <use xlink:href="./images/sprite.svg#logom"></use>
-        </svg>
-        <p class="footer__copyright">Copyright 2021 Pilar Mugica</p>
-      </section>
-    </div>
-  </footer>
+    <!-- Block Domain -->
+    <section class="block block-domain">
+      <header class="block__header">
+        <h2 class="domain__heading">Deja tus finanzas en nuestras manos</h2>
+        <p class="domain__description">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, quam.
+        </p>
+      </header>
+    </section>
 
-  <script src="./js/main.js"></script>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+    <!-- Block plan -->
+    <section class="block container block-plans">
+      <div class="grid grid--1x2">
+        <!-- Plan -->
+        <div class="plan">
+          <!-- Card -->
+          <div data-aos="fade-right" class="card card--primary">
+            <header class="card__header">
+              <h3 class="plan__name">Servicios</h3>
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">Monotributo</li>
+                <li class="list__item">Liquidacion de Impuestos</li>
+                <li class="list__item">Liquidacion de Suledos</li>
+                <li class="list__item">Balances Contables</li>
+                <li class="list__item">Certificacion de Ingresos</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+       </section>
+
+    <!-- Footer -->
+    <footer class="block block--dark footer">
+      <div class="container grid footer__sections">
+        <section class="collapsible collapsible--expanded footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Contacto</h2>
+            <svg class="icon icon--white collapsible__chevron">
+              <use xlink:href="./images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">Ubicacion: Buenos Aires 258 - San Lorenzo</a></li>
+              <li><a href="#">Whatsapp: 3476636658</a></li>
+              <li><a href="#">Telefono: 03476-431222</a></li>
+              <li><a href="#">pilarmugica@hotmail.com</a></li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="footer__brand">
+          <svg class="icon icon--primary footer__icon">
+            <use xlink:href="./images/sprite.svg#logom"></use>
+          </svg>
+          <p class="footer__copyright">Copyright 2021 Pilar Mugica</p>
+        </section>
+      </div>
+    </footer>
+    <!-- Script -->
+    <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
