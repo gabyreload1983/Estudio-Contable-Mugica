@@ -414,6 +414,7 @@ a {
 /* Plans */
 .plan {
   transition: transform 0.2s ease-out;
+  cursor: pointer;
 }
 
 .plan__name {
