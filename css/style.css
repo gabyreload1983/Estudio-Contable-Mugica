@@ -294,10 +294,6 @@ a {
   padding-bottom: 2rem;
 }
 
-.block-background .img {
-  transform: translateY();
-}
-
 .block--dark h1,
 .block--dark h2,
 .block--dark h3 {
